@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">foodonation</string>
+    <string name="facebook_app_id">270812644488332</string>
+    <string name="fb_login_protocol_scheme">fb270812644488332</string>
+</resources>
