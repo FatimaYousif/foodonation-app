@@ -45,7 +45,7 @@ public class viewItem extends AppCompatActivity {
         request.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i=new Intent(viewItem.this, chat.class);
+                Intent i=new Intent(viewItem.this, done.class);
                 startActivity(i);
             }
         });

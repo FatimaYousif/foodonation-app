@@ -31,7 +31,6 @@ public class login extends AppCompatActivity {
         FacebookSdk.sdkInitialize(this.getApplicationContext());
         setContentView(R.layout.activity_login);
 
-        getSupportActionBar().setTitle("LOG IN");
 
         username=(EditText)findViewById(R.id.login_name);
         password=(EditText)findViewById(R.id.login_password);
@@ -84,7 +83,7 @@ public class login extends AppCompatActivity {
                     if(checkuserpass==true)
                     {
                         Toast.makeText(login.this, "SUCCESSFUL SIGN IN", Toast.LENGTH_LONG).show();
-                        Intent i=new Intent(login.this, dashboard.class);
+                        Intent i=new Intent(login.this, Animation.class);
                         startActivity(i);
                     }
                     else

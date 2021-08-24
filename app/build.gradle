@@ -45,4 +45,5 @@ dependencies {
     implementation "androidx.cardview:cardview:1.0.0"
 
     implementation 'com.theartofdev.edmodo:android-image-cropper:2.8.+'
+    implementation "com.airbnb.android:lottie:4.1.0"
 }

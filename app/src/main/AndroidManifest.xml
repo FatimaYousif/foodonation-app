@@ -11,14 +11,22 @@
         android:allowBackup="true"
         android:icon="@drawable/foodonation"
         android:label="Foodonation"
-        android:roundIcon="@drawable/foodonation"
+        android:roundIcon="@drawable/launch"
         android:supportsRtl="true"
         android:theme="@style/Theme.Foodonation">
-        <activity android:name=".chat"
-                android:theme="@style/Theme.Design.NoActionBar">
-        </activity>
+        <activity android:name=".done"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            ></activity>
+        <activity
+            android:name=".Animation"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".chat"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity android:name=".viewItem" />
-        <activity android:name=".add_item" />
+        <activity android:name=".add_item"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            />
 
         <meta-data
             android:name="com.facebook.sdk.ApplicationId"
@@ -41,9 +49,15 @@
             </intent-filter>
         </activity>
         <activity android:name=".dashboard" />
-        <activity android:name=".signup" />
-        <activity android:name=".login" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".signup"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            />
+        <activity android:name=".login"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            />
+        <activity android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -53,8 +67,6 @@
         <activity
             android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
             android:theme="@style/Base.Theme.AppCompat" />
-
-
     </application>
 
 </manifest>
