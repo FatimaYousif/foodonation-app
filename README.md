@@ -7,13 +7,14 @@
 
 ## Functionalities
 - [x] Facebook Authentication
-- [x] Location based Services - Google map
 - [x] Database (SQLite) CRUD
 - [x] Recyclerview
 - [x] Food item based Search
 - [x] Animations
 - [x] Multi-threading (Concurrency)
 - [x] Chat UI (Working: Next Implementation)
+- [x] Google Map integration 
+
 
 ## Problem
 One day, I came across a random thought in this random wedding invitation. When seeing all the elite people leaving their tables full of left over foods, 
