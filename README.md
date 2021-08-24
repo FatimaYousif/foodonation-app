@@ -11,6 +11,7 @@
 - [x] Database (SQLite) CRUD
 - [x] Recyclerview
 - [x] Food item based Search
+- [x] Animations
 - [x] Multi-threading (Concurrency)
 - [x] Chat UI (Working: Next Implementation)
 
