@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.method.PasswordTransformationMethod;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -29,11 +30,14 @@ public class signup extends AppCompatActivity {
         pw=(EditText)findViewById(R.id.signup_password);
         confirmpw=(EditText)findViewById(R.id.signup_confirmpw);
 
-        getSupportActionBar().setTitle("SIGN UP");
+//        getSupportActionBar().setTitle("SIGN UP");
 
         DB=new Database(this);
 
         signup=(Button)findViewById(R.id.signup);
+
+        pw.setTransformationMethod(new PasswordTransformationMethod());
+        confirmpw.setTransformationMethod(new PasswordTransformationMethod());
 
         signup.setOnClickListener(new View.OnClickListener() {
             @Override
