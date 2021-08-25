@@ -19,7 +19,7 @@ https://user-images.githubusercontent.com/49322171/130791947-00e8a35c-c2b7-498a-
 
 ## Problem
 One day, I came across a random thought in this random wedding invitation. When seeing all the elite people leaving their tables full of left over foods, 
-and meanwhile the beggars right outside the halls waited to get them. Thats where the thought of developing an application for the left over food 
+and meanwhile the beggars right outside the halls waited to get them. That's where the thought of developing an application for the leftover food 
 (Web or Android- IMPLEMENTED: Android) came.
 The number of reasons it can be used:
 1. Left overs from: Marriage halls/ home food/ restaurant chains etc 
