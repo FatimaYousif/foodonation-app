@@ -7,8 +7,7 @@
     tools:context=".add_item">
 
 
-
-        <!--            android:textColorHint="@color/black"-->
+    <!--            android:textColorHint="@color/black"-->
 
 
     <EditText
@@ -116,13 +115,13 @@
 
     <ImageView
         android:id="@+id/image"
-        android:layout_width="100dp"
-        android:layout_height="80dp"
-        android:layout_marginTop="48dp"
+        android:layout_width="212dp"
+        android:layout_height="103dp"
+        android:layout_marginTop="32dp"
         app:layout_constraintEnd_toStartOf="@+id/add_pictures"
-        app:layout_constraintHorizontal_bias="0.142"
+        app:layout_constraintHorizontal_bias="0.217"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
-        app:srcCompat="@drawable/ic_launcher_foreground" />
+        app:srcCompat="@drawable/image" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".viewItem">
+    tools:context=".viewItem"
+    >
 
     <!--    <ImageView-->
     <!--        android:id="@+id/image"-->
@@ -21,12 +22,13 @@
         android:id="@+id/name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="284dp"
+        android:layout_marginTop="288dp"
         android:text="Name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textSize="20sp"
         android:textStyle="bold|italic"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintHorizontal_bias="0.097"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -34,9 +36,10 @@
         android:id="@+id/title"
         android:layout_width="225dp"
         android:layout_height="45dp"
-        android:layout_marginStart="24dp"
+        android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:text="title"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -55,51 +58,70 @@
 
     <TextView
         android:id="@+id/description"
-        android:layout_width="338dp"
-        android:layout_height="53dp"
-        android:layout_marginTop="16dp"
+        android:layout_width="225dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="4dp"
         android:text="description"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.328"
+        app:layout_constraintHorizontal_bias="0.086"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/title" />
 
     <TextView
         android:id="@+id/address"
-        android:layout_width="334dp"
-        android:layout_height="96dp"
-        android:layout_marginBottom="152dp"
+        android:layout_width="244dp"
+        android:layout_height="53dp"
+        android:layout_marginBottom="212dp"
         android:text="address"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.337"
+        app:layout_constraintHorizontal_bias="0.095"
         app:layout_constraintStart_toStartOf="parent" />
+
 
     <Button
         android:id="@+id/request"
-        android:layout_width="339dp"
-        android:layout_height="51dp"
-        android:layout_marginBottom="28dp"
-        android:text="Request"
+        android:layout_width="267dp"
+        android:layout_height="64dp"
+        android:layout_marginBottom="64dp"
+        android:text="Request this"
+        android:textAllCaps="false"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.361"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="8dp"
         android:text="APPROX.LOCATION"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.091"
+        app:layout_constraintHorizontal_bias="0.056"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/description" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="405dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="12dp"
+        android:background="#f8f9fa"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:text="Everything in this section is given away for free 💙"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/address" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

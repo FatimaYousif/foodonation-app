@@ -4,23 +4,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".dashboard">
+    tools:context=".dashboard"
+    >
+
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/add"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="80dp"
-        android:clickable="true"
+        android:layout_marginBottom="76dp"
         android:backgroundTint="@color/blue"
+        android:clickable="true"
         android:focusable="true"
         app:layout_constraintBottom_toBottomOf="@+id/recyclerview"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.864"
+        app:layout_constraintHorizontal_bias="0.915"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/ic_add"
         tools:ignore="MissingConstraints" />
-
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerview"
@@ -28,8 +29,10 @@
         android:layout_height="match_parent"
         android:visibility="visible"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="-16dp" />
+        tools:layout_editor_absoluteY="0dp"
 
-<!--    android:paddingTop="?attr/actionBarSize"-->
+        />
+
+    <!--    android:paddingTop="?attr/actionBarSize"-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>
