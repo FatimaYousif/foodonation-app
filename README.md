@@ -1,10 +1,11 @@
 <h1 align="center">Foodonation Android Application</h1>
-<a href="#">
-  <div align="center">
-    GIF
-  </div>
-</a>
 
+<div align="center">
+
+https://user-images.githubusercontent.com/49322171/130791947-00e8a35c-c2b7-498a-872a-1d6040a3dd49.mp4
+
+</div>
+  
 ## Functionalities
 - [x] Facebook Authentication
 - [x] Database (SQLite) CRUD
